@@ -2,7 +2,7 @@ package leetcode1_10;
 
 import java.util.HashMap;
 
-public class TwoNumSum {
+public class A1_TwoNumSum {
     /**
      * leetCode第一个题：两数之和
      * 给定一个整数数组和一个目标值，找出数组中和为目标值的两个数。
