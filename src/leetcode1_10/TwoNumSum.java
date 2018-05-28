@@ -30,7 +30,7 @@ public class TwoNumSum {
     /**
      * 更优秀的解法
      */
-    public int[] twoSum2(int[] numbers, int target) {
+        public int[] twoSum2(int[] numbers, int target) {
             int [] res = new int[2];
             if(numbers==null||numbers.length<2)
                 return res;
