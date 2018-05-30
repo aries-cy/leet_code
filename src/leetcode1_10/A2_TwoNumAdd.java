@@ -12,7 +12,7 @@ import leetcode1_10.Bo.ListNode;
  */
 public class A2_TwoNumAdd {
 
-    public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+    public  ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode  listNode= new ListNode(0);
         ListNode p = new ListNode(0);
         p = listNode;
@@ -32,16 +32,6 @@ public class A2_TwoNumAdd {
             p = p.next;
         }
         return listNode.next;
-    }
-
-    public static void main(String[] args) {
-        ListNode a = new ListNode(2);
-        a.next = new ListNode(4);
-        a.next.next = new ListNode(3);
-        ListNode b = new ListNode(5);
-        b.next = new ListNode(6);
-        b.next.next = new ListNode(4);
-        addTwoNumbers(a,b);
     }
 
 }
